@@ -42,6 +42,7 @@ function App() {
       (<button onClick={() => {setRunning(false) }}>Stop</button>) :
       (<button onClick={() => {setRunning(true) }}>Start</button>)
       }
+      &nbsp;&nbsp;
       <button onClick={() => { setTime(0)}}>Reset</button>
     </div>
     </>
